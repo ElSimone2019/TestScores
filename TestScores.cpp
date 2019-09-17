@@ -7,9 +7,9 @@ using namespace std;
 int main()
 {
     //Variables
-	int gradeOne = 0;
-	int gradeTwo = 0;
-	int gradeThree = 0;
+	float gradeOne = 0;
+	float gradeTwo = 0;
+	float gradeThree = 0;
 	float averageGrade = 0;
 
 	//Input One
@@ -29,4 +29,11 @@ int main()
 
 	//Output
 	cout << "The average grade is " << averageGrade;
+
+	if (averageGrade > 50) {
+		cout << "Passed";
+	}
+	else if (averageGrade < 50) {
+		cout << "Failed";
+	}
 }
